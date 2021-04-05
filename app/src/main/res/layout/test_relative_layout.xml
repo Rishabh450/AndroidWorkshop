@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/top_button"
+        android:layout_width="match_parent"
+        android:text="DONE"
+       android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bottom_button"
+        android:text="SAVE"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/top_button"
+        android:layout_height="wrap_content">
+    </Button>
+
+</RelativeLayout>
