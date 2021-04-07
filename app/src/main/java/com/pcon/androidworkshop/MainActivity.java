@@ -22,11 +22,16 @@ public class MainActivity extends AppCompatActivity {
       // Log.d("TEXT",x);
         Log.d("TEXT","worked");
 
+
+
+
         cli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //explicit intent
                 Intent intent = new Intent(MainActivity.this, WebViewer.class);
                 startActivity(intent);
+
             }
         });
     }
